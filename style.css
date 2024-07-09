@@ -29,7 +29,7 @@ nav .logo{
     text-align: left;
 }
 
-nav .dwn-resume-btn{
+.btn{
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
@@ -95,4 +95,80 @@ header .banner-container .contact-btn{
     background: rgb(13, 19, 33);
     padding: 21px 24px;
 }
+
+
+main .why-web-dev{
+    width: 1140px;
+    /* height: 1395px; */
+    /* background-color: #000; */
+    margin: 0 auto;
+    margin-top: 74px;
+    margin-bottom: 88px;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+main .why-web-dev .heading{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+main .why-web-dev .subHeading{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+main .why-web-dev .capability{
+    width: 946px;
+    height: 336px;
+    margin-top: 32px;
+    padding: 48px;
+    margin: 40px 0;
+    /* border: 2px solid tomato; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .why-web-dev .capability .title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .why-web-dev .capability .subTitle{
+    width: 80%;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin: 16px 0 32px 0;
+}
+
+.margin{
+    margin-left: 100px;
+}
+
+
 
