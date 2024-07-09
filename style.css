@@ -170,5 +170,122 @@ main .why-web-dev .capability .subTitle{
     margin-left: 100px;
 }
 
+main .inspiration{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.heading{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.description{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+main .inspiration .youtube-video{
+    width: 100%;
+    height: 614px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+
+main .current-target{
+    width: 1140px;
+    height: 460px;
+    /* border: 2px solid tomato; */
+    margin: 0 auto;
+    margin-top: 151px;
+    margin-bottom: 111px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .current-target .targets{
+    width: 100%;
+    height: 100%;
+    /* background-color: purple; */
+    display: flex;
+    gap: 24px;
+}
+
+
+main .current-target .targets .target{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+main .current-target .targets .target .tech-name{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+main .current-target .targets .target .tech-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+
+.t1{
+    background: rgba(255, 76, 30, 0.05);
+}
+
+
+.t2{
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.t3{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target .tech-link{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
 
