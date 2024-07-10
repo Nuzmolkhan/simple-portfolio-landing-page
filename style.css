@@ -1,10 +1,15 @@
+
+/* font importing */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* universal styling */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header section starts */
 
 header{
     width: 100%;
@@ -15,7 +20,6 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: red; */
     padding: 47px 0px;
 }
 
@@ -96,7 +100,13 @@ header .banner-container .contact-btn{
     padding: 21px 24px;
 }
 
+/* header section ends */
 
+
+/* main section starts */
+
+
+/* why-web-dev section starts */
 main .why-web-dev{
     width: 1140px;
     /* height: 1395px; */
@@ -166,9 +176,34 @@ main .why-web-dev .capability .subTitle{
     margin: 16px 0 32px 0;
 }
 
+
+.learn-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    cursor: pointer;
+    background-color: #fff;
+    padding: 10px 10px;
+}
+
+.learn-btn a{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    text-decoration: none;
+}
+
 .margin{
     margin-left: 100px;
 }
+
+/* why-web-dev section ends */
+
+
+
+/* inspiration section starts */
 
 main .inspiration{
     width: 1140px;
@@ -214,11 +249,15 @@ main .inspiration .youtube-video{
     border-radius: 16px;
 }
 
+/* inspiration section ends */
+
+
+
+/* current-target section starts */
 
 main .current-target{
     width: 1140px;
-    height: 460px;
-    /* border: 2px solid tomato; */
+    height: 520px;
     margin: 0 auto;
     margin-top: 151px;
     margin-bottom: 111px;
@@ -230,7 +269,6 @@ main .current-target{
 main .current-target .targets{
     width: 100%;
     height: 100%;
-    /* background-color: purple; */
     display: flex;
     gap: 24px;
 }
@@ -238,7 +276,7 @@ main .current-target .targets{
 
 main .current-target .targets .target{
     width: 364px;
-    height: 299px;
+    height: 350px;
     padding: 40px;
     border-radius: 16px;
 }
@@ -290,10 +328,14 @@ main .current-target .targets .target{
     text-decoration-line: underline;
 }
 
+/* current-target section ends */
+
+
+/* next-target section starts */
+
 main .next-target{
     width: 1140px;
     height: 866px;
-    /* border: 2px solid tomato; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -322,6 +364,10 @@ main .next-target .next-techs .next-tech{
     gap: 20px;
 }
 
+/* next-target section ends */
+
+
+/* support section starts */
 main .support{
     width: 1140px;
     height: 313px;
@@ -336,6 +382,7 @@ main .support{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 
@@ -395,7 +442,38 @@ main .support .submit{
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
+    cursor: pointer;
 }
+
+/* support section ends */
+
+/* main section ends */
+
+/* footer section starts */
+
+footer{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 32px 0;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+footer .contact-info{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+footer .contact-info .contact-links{
+    display: flex;
+    gap: 24px;
+}
+
+/* footer section ends */
+
 
 
 
